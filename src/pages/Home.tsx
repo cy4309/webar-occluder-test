@@ -94,6 +94,7 @@ import { Suspense, useEffect, useMemo, useRef, useState } from "react";
 import * as THREE from "three";
 import { useGLTF } from "@react-three/drei";
 import { useLoader } from "@react-three/fiber";
+// @ts-ignore
 import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
 import { FilesetResolver, FaceLandmarker } from "@mediapipe/tasks-vision";
 
